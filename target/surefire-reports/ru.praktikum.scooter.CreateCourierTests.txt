@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: ru.praktikum.scooter.CreateCourierTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.879 s <<< FAILURE! - in ru.praktikum.scooter.CreateCourierTests
+checkNotCreateTwoIdenticalCouriers(ru.praktikum.scooter.CreateCourierTests)  Time elapsed: 0.941 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Р­С‚РѕС‚ Р»РѕРіРёРЅ СѓР¶Рµ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ. РџРѕРїСЂРѕР±СѓР№С‚Рµ РґСЂСѓРіРѕР№].> but was:<[Этот логин уже используется. Попробуйте другой].>
+	at ru.praktikum.scooter.CreateCourierTests.checkNotCreateTwoIdenticalCouriers(CreateCourierTests.java:74)
+
+checkNotAllRequiredFieldsFilled(ru.praktikum.scooter.CreateCourierTests)  Time elapsed: 0.368 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[РќРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РґР°РЅРЅС‹С… РґР»СЏ СЃРѕР·РґР°РЅРёСЏ СѓС‡РµС‚РЅРѕР№ Р·Р°РїРёСЃРё]> but was:<[Недостаточно данных для создания учетной записи]>
+	at ru.praktikum.scooter.CreateCourierTests.checkNotAllRequiredFieldsFilled(CreateCourierTests.java:42)
+

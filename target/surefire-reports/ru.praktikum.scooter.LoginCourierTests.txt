@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: ru.praktikum.scooter.LoginCourierTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.627 s <<< FAILURE! - in ru.praktikum.scooter.LoginCourierTests
+courierCanLogin(ru.praktikum.scooter.LoginCourierTests)  Time elapsed: 0.272 s  <<< ERROR!
+java.lang.NullPointerException
+	at ru.praktikum.scooter.LoginCourierTests.courierCanLogin(LoginCourierTests.java:34)
+
+wrongLoginCourier(ru.praktikum.scooter.LoginCourierTests)  Time elapsed: 0.191 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Ð£Ñ‡ÐµÑ‚Ð½Ð°Ñ Ð·Ð°Ð¿Ð¸ÑÑŒ Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°]> but was:<[Ó÷åòíàÿ çàïèñü íå íàéäåíà]>
+	at ru.praktikum.scooter.LoginCourierTests.wrongLoginCourier(LoginCourierTests.java:67)
+
+loginCourierEmptyPassword(ru.praktikum.scooter.LoginCourierTests)  Time elapsed: 0.154 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ÐÐµÐ´Ð¾ÑÑ‚Ð°Ñ‚Ð¾Ñ‡Ð½Ð¾ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð´Ð»Ñ Ð²Ñ…Ð¾Ð´Ð°]> but was:<[Íåäîñòàòî÷íî äàííûõ äëÿ âõîäà]>
+	at ru.praktikum.scooter.LoginCourierTests.loginCourierEmptyPassword(LoginCourierTests.java:52)
+
